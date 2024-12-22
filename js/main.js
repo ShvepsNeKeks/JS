@@ -4,7 +4,7 @@ function randomNumber() {
   for(let count = 10; count >= 0; count--) {
     let digitUser = +prompt(`Введите ваша число, у вас ${count} попыток`);
     if(digitUser == nubmer) {
-      alert(`Поздравляю! Вы угадали число: ${nubmer}, за ${count} попыток`)
+      alert(`Поздравляю! Вы угадали число: ${nubmer}, остаток попыток: ${count}`)
       break
     } else if(digitUser < nubmer) {
       alert('Ваше число меньше загадоного')
