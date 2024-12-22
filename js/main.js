@@ -17,7 +17,7 @@ function randomNumber() {
   }
 }
 
-let startGame = confirm('Начать игру?')
+let startGame = confirm('Начать игру? Угадай число от 1 до 100')
 if(startGame == true) randomNumber() 
 
 
